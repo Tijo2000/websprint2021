@@ -11,12 +11,14 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .logo img{
     width:26%;
     border: 3px solid white;
     border-radius: 50px;
     margin: 5px;
+   
 }
 .navbar{
     display: flex;
@@ -70,9 +72,10 @@ html{
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7)url('../img/bg.jpg');
+    background: rgba(0, 0, 0, 0.7)url('../img/bg2.jpg');
     background-size: cover;
     background-blend-mode: darken;
+    
 
 }
 
@@ -112,7 +115,8 @@ html{
 }
 
 .text-big{
-    font-size: 41px;
+    font-size: 40px;
+    
 
 }
 
@@ -147,7 +151,8 @@ html{
 
 .btn-dark{
     color: black;
-    border: 2px solid grey;
+    border: 2px solid white;
+    
 }
 
 .section{
@@ -179,21 +184,21 @@ html{
 }
 
 .thumbnail img{
-    width: 250px;
+    width: 450px;
     border: 2px solid black;
     margin-top: 18px;
     border-radius: 26px;
 }
 
 .contact{
-    background-color:#f6f5f4;
-    height: 533px;
+    background-color:rgb(240, 225, 198);
+    height: 800px;
 }
 
 .text-center{
     padding-top: 30px;
     text-align: center;
-    padding: 30px;
+    padding: 0px;
     font-family: 'Ubuntu', sans-serif; ;
 }
 
@@ -227,6 +232,8 @@ html{
     margin: 5px 3px;
 
 }
+
+
 @media only screen and (max-width:1140px){
     .nav-list{
         flex-direction: column;
@@ -273,3 +280,5 @@ html{
         padding: 0px;
     }
 }
+
+
